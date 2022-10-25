@@ -6,6 +6,15 @@ https://bitcoincore.org
 For an immediately usable, binary version of the Bitcoin Core software, see
 https://bitcoincore.org/en/download/.
 
+Why this fork?
+---------------------
+
+We forked Bitcoin Core to demonstrate that anyone can #ChangeTheCode for Bitcoin to use Proof-of-Stake if they really want to, and that the only reason why eco-warriors such as Greenpeace (and the Ripple co-founder bankrolling them) have not already did so already is out of pure laziness and fear.
+
+They know Bitcoin will crash if it uses Proof of Stake. But since that's what they want, they are more than welcome to use this fork. We have made a few changes to the code to make it 100% eco-friendly, so you don't have to worry about Bitcoin polluting the environment anymore. ;-)
+
+For more details on this, visit https://bitcoincleanup.com. The rest of the README is written below verbatim.
+
 What is Bitcoin Core?
 ---------------------
 
