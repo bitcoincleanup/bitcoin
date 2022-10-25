@@ -92,13 +92,13 @@ std::string CopyrightHolders(const std::string& strPrefix)
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/bitcoincleanup/bitcoin>";
-    const std::string URL_BITCOIN_CLEANUP = "<https://bitcoincleanup.com";
+    const std::string URL_BITCOIN_CLEANUP = "https://bitcoincleanup.com";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i").translated, 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
            strprintf(_("Please contribute if you find %s useful. "
                        "Visit %s for further information about the software. "
-                       "Proof of Stake edition - because Greenpeace does't want to make it - so we made it first. ").translated, PACKAGE_NAME, "<" PACKAGE_URL ">") +
+                       "Proof of Stake edition - because Greenpeace does't want to make it - so we made it first. ").translated, PACKAGE_NAME, "<" URL_BITCOIN_CLEANUP ">") +
            "\n" +
            strprintf(_("The source code is available from %s.").translated, URL_SOURCE_CODE) +
            "\n" +
