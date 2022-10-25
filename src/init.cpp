@@ -1111,6 +1111,8 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
         // Detailed error printed inside StartLogging().
         return false;
     }
+    
+    LogPrintf("Welcome to Bitcoin Core [BitcoinCleanup Edition], using Proof of Stake to lower energy usage by 99.99%. Enjoy!");
 
     LogPrintf("Using at most %i automatic connections (%i file descriptors available)\n", nMaxConnections, nFD);
 
